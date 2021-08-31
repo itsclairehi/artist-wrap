@@ -11,7 +11,7 @@ function sendMail(event){
     event.preventDefault()
     
     //open email
-  document.location.href = 'mailto:cpuckett9@gmail.com?subject='+songTitle+' wrap-up&body='+name+'%0D%0A'+pname+'%0D%0A'+cname+'%0D%0A'+sessions+'%0D%0A%0D%0A'+'Description: '+description
+  document.location.href = 'mailto:claire@austinclassicalguitar.org?subject='+songTitle+' wrap-up&body='+name+'%0D%0A'+pname+'%0D%0A'+cname+'%0D%0A'+sessions+'%0D%0A%0D%0A'+'Description: '+description
 
   window.alert("Please attach mp3 or wav file of song to email. Thank you!!")
 
