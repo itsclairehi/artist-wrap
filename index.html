@@ -5,29 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
-    <title>Document</title>
+    <title>ACG Music and Healing Artist Submission Page</title>
 </head>
 <body>
+    <h1>Austin Classical Guitar Music & Healing Artist Submission Page</h1>
     <form>
        
             <label for="aname">Artist name:</label><br>
             <input type="text" id="aname" name="aname"><br><br>
-            <label for="lname">Client(s) name or initial:</label><br>
+            <label for="lname">Participant(s) name(s):</label><br>
             <input type="text" id="cname" name="cname"><br/><br>
             <label for="songTitle">Song Title:</label><br>
             <input type="text" id="songTitle" name="songTitle"><br/><br>
-            <label for="pname">Partner name</label><br/>
+            <label for="pname">Partner Organization</label><br/>
             <input type="text" id="pname" name="pname" placeholder="i.e Any Baby Can"> <br/><br>
             <label for="sessions">Dates of sessions</label> <br>
             <input type="textarea 5 rows" id="sessions" name="sessions" placeholder="12/13/2021, 12/16/2021"><br/><br>
-            
-            <label for="description">Describe your experience in a few sentences</label><br/>
+            <div class="deslabel">
+                <div id="divdiv">
+            <p>Please provide a brief description of your experience leading this project. Attach the final Mp3 of your project along with any other  important accompanying files (text, photos, session audio, etc.) to email after creating email.</p><br/>
+                </div>
+        </div>
             <textarea id="description" rows="6" cols="50"> </textarea> <br/><br>
-            <input type="submit" value="Submit" onclick="sendMail(event)" >
+        
+            <input type="submit" value="Create Email" class="buttons" onclick="sendMail(event)" >
 
             
           
     </form>
+
+
 </body>
 
 <script src="assets/sendMail.js"></script>

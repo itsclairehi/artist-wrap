@@ -1,7 +1,33 @@
 body {
-    background-color: aquamarine;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-form {
-    text-align: center;
+
+#divdiv {
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+    margin-left: 20%;
+
 }
+
+.buttons {
+    background-color:burlywood;
+    border-radius: 30%;
+
+}
+
+.buttons:hover {
+    background-color: chocolate;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #divdiv {
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+  }
