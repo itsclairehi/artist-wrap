@@ -7,6 +7,11 @@ body {
 
 h1{
     margin: 5% 0 5% 0;
+    color: burlywood;
+}
+
+input {
+    width: 25%
 }
 
 
@@ -20,7 +25,9 @@ h1{
 
 .buttons {
     background-color:burlywood;
-    border-radius: 30%;
+    border-radius: 100%;
+    width: 8%;
+    min-height: 40px;
 
 }
 
@@ -29,7 +36,15 @@ h1{
     cursor:pointer;
 }
 
+#ACG {
+    max-height: 150px;
+    
+}
 
+
+
+
+/* media queries */
 @media only screen and (max-width: 600px) {
     #divdiv {
         margin-right: 0%;
@@ -43,5 +58,9 @@ h1{
 
     input {
         width: 70%;
+    }
+
+    .buttons {
+        width: auto;
     }
   }
