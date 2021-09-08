@@ -2,7 +2,8 @@ body {
     background-color: black;
     text-align: center;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 h1{
@@ -28,12 +29,16 @@ input {
     border-radius: 100%;
     width: 8%;
     min-height: 40px;
+    font-weight: 700;
+    /* width: auto; */
+    
 
 }
 
 .buttons:hover {
-    background-color: rgb(255, 244, 144);
+    background-color: rgb(255, 229, 144);
     cursor:pointer;
+    font-style: italic;
 }
 
 #ACG {
@@ -60,7 +65,11 @@ input {
         width: 70%;
     }
 
+    
+  }
+
+  @media only screen and (max-width: 1200px) {
     .buttons {
         width: auto;
     }
-  }
+}
